@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FBSwitch_Example' do
+  pod 'FBSwitch', :path => '../'
+
+  target 'FBSwitch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
