@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3C89291D3CDA3600475675 /* FBSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C3C89281D3CDA3600475675 /* FBSwitch.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		08480BE7144F036939A8DB27 /* Pods_FBSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C3C89271D3CDA3600475675 /* FBSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FBSwitch.h; path = ../../FBSwitch/Classes/FBSwitch.h; sourceTree = "<group>"; };
+		0C3C89281D3CDA3600475675 /* FBSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FBSwitch.m; path = ../../FBSwitch/Classes/FBSwitch.m; sourceTree = "<group>"; };
 		2DD870C67F374C35358EBF6D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FBSwitch_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBSwitch_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C3C89261D3CDA2400475675 /* FBSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				0C3C89271D3CDA3600475675 /* FBSwitch.h */,
+				0C3C89281D3CDA3600475675 /* FBSwitch.m */,
+			);
+			name = FBSwitch;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +142,7 @@
 		6003F593195388D20070C39A /* Example for FBSwitch */ = {
 			isa = PBXGroup;
 			children = (
+				0C3C89261D3CDA2400475675 /* FBSwitch */,
 				6003F59C195388D20070C39A /* FBAppDelegate.h */,
 				6003F59D195388D20070C39A /* FBAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -393,6 +406,7 @@
 				6003F59E195388D20070C39A /* FBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				0C3C89291D3CDA3600475675 /* FBSwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

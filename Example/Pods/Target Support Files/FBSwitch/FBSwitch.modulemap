@@ -1,0 +1,6 @@
+framework module FBSwitch {
+  umbrella header "FBSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

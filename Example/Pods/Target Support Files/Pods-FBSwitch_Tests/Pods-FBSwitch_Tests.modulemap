@@ -1,0 +1,6 @@
+framework module Pods_FBSwitch_Tests {
+  umbrella header "Pods-FBSwitch_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

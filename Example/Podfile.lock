@@ -1,0 +1,16 @@
+PODS:
+  - FBSwitch (0.1.0)
+
+DEPENDENCIES:
+  - FBSwitch (from `../`)
+
+EXTERNAL SOURCES:
+  FBSwitch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSwitch: 821f66d3b1c50b5fd1975588aa1d4a5560d36799
+
+PODFILE CHECKSUM: 7abb1192ef7ba8e00e62df9987fd8f768aa19ad5
+
+COCOAPODS: 1.0.1
